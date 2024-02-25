@@ -1,21 +1,13 @@
 
-* { 
-    margin: 0;
-    padding:0 ;
-    }
 
-
-header {
-    position: fixed;
-    bottom: 0;
-
-}
 nav {
     background-color: gray;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
 }
 
 header nav ul {
@@ -36,19 +28,43 @@ nav a {
 }
 
 body {
-    height: 1000px;
+    
     width: 100vw;
     background-color: white;
+    padding: 0.8em;
     
+}
+
+main {
+    height: 80em;
 }
 
 
 
 
+/* ----------------index  -----------------*/
 
+.index p {
+    font-size: 1em;
+    width: 70%;
+    color: white;
+    border-radius: 0.1em;
+    background-color:brown;
+    margin: auto;
+    
+    font-size: 100%;
+}
 
+.index h1 {
+    text-align: center;
+    color: brown;
 
+}
 
+.index h2 {
+    text-align: center;
+    color: brown;
+}
 
 
 
@@ -65,45 +81,29 @@ body {
     color: white;
     margin-left: 3em;
     margin-right: 3em;
-    font-size: 1em;
 }
 
 .favoriete h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: start;
-    font-size: 1.2em;
-
+     font-size: 2em;
+    color: brown;
+    
 }
 .favoriete div {
-    font-size: 0.7em;
-    text-align: center;
+    font-size: 1em;
+    
 }
     
-
-.favoriete section:nth-of-type(odd) {
+.favoriete section {
     display: flex;
-    flex-direction: row-reverse;
-}
-.favoriete section:nth-of-type(even) {
-    display: flex;
-    flex-direction:row
+    flex-direction: column-reverse;
+    
 }
 
-.favoriete img {
- width: 100vw;
-
+.favoriete div img {
+ align-items: center;
+ 
 }
-
-.favoriete section img {
-margin-top: 2em;
-}
-
-
 .favoriete p {
-font-size: 0.7em;
-}
-
-.favoriete h2 {
 font-size: 0.8em;
 }
 
@@ -112,13 +112,11 @@ font-size: 0.8em;
 
 
 
+/* ----------------OVER HUN -----------------*/
 
 
 
 
-.over img {
-    width: 100vw
-}
  .over h1 {
     text-align: center;
     background-color: brown;
@@ -127,26 +125,26 @@ font-size: 0.8em;
     margin-right: 3em;
 }
 .over h2 {
-    text-align: center;
+    
     color: brown;
-    font-size: 1em;
-
+    font-size: 1.5em;
 }
 
 .over p {
-    font-size: 0.8em;
-    width: 100vw;
+    font-size: 1em;
+    background-color: brown;
+    color: white;
+}
+
+.over section:nth-of-type(3) {
+    background-color: brown;
+    color: white;
+}
+
+.over iframe{ 
+    margin: 10px;
+    background-color: black;
 
 }
 
 
-.index h1 {
-    text-align: center;
-    color: brown;
-
-}
-
-.index h2 {
-    text-align: center;
-    color: brown;
-}
